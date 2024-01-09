@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>お問い合わせ | ウッディカフェ</title>
+        <meta name="description" content="2015年表参道駅のそばにオープンした閑静な住宅街に囲まれたオープンカフェ。スタイリッシュなカフェでほっと一息お寛ぎください。">
+    </head>
+    <tr>
+        <header class="gl-header">
+            <h1>ウッディカフェ</h1>
+            <nav class="gl-nav">
+                <ul>
+                    <li>
+                        <a href="index.html">ホーム</a>
+                    </li>
+                    <li>
+                        <a href="menu.html">メニュー</a>
+                    </li>
+                    <li>
+                        <a href="info.html">店舗情報</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">お問い合わせ</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="gl-main container">
+            <section class="contact">
+                <h2>お問い合わせ</h2>
+                <p>ウッディカフェに関するお問い合わせはこちらのフォームからお尋ねください。</p>
+                <form action="" method="post">
+                    <table action="" method="post">
+                        <tr>
+                            <th>名前</th>
+                            <td><input type="text" name="name" size="24" placeholder="お名前を入力してください" autofocus required></td>
+                        </tr>
+                        <tr>
+                            <th>メール</th>
+                            <td><input type="email" name="email" size="36" placeholder="メールを入力してください" required></td>
+                        </tr>
+                        <tr>
+                            <th>お問い合わせ</th>
+                            <td>
+                                <select name="address">
+                                    <option value="sai">埼玉</option>
+                                    <option value="kan">神奈川</option>
+                                    <option value="tok">東京</option>
+                                    <option value="chi">千葉</option>
+                                    <option value="iba">茨城</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>知った理由</th>
+                            <td>
+                                <label><input type="checkbox" name="subject[]" value="search">検索</label>
+                                <label><input type="checkbox" name="subject[]" value="blog">紹介記事</label>
+                                <label><input type="checkbox" name="subject[]" value="sns">SNS口コミ</label>
+                                <label><input type="checkbox" name="subject[]" value="ad">ネット広告</label>
+                                <label><input type="checkbox" name="subject[]" value="other">その他</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>お問い合わせ内容</th>
+                            <td>
+                                <label><input type="radio" name="reason" value="reserve">予約に関して</label>
+                                <label><input type="radio" name="reason" value="menu" checked>メニューに関して</label>
+                                <label><input type="radio" name="reason" value="recruit">求人に関して</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>お問い合わせ</th>
+                            <td>
+                                <textarea name="contact" cols="36" rows="6"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit" value="送信">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </section>
+        </main>
+        <footer class="gl-footer">
+            <p><small>Copyright &copy; 20XX WoodyCafe. All Rights Reserved.</small></p>
+        </footer>
+    </body>
+</html>

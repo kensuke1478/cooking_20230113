@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&display=swap');
+.iogo {
+  font-family: 'Noto Sans JP';
+}
+.css {
+  filter: drop-shadow(0 0 5px #999);
+}
+.body {
+  background: #7ccbf2 url("../images/repeat.jpg") left bottom repeat-x;
+}
+
+/* @media screen and (max-width: 768px) {
+  body{
+    background:  linear-gradient(blue)
+  }
+} */
+
+.blend {
+  width: 716px;
+  height: 418px;
+  background: url("../images/lion.jpg") 0 0 no-repeat,
+                      url("../images/aurora.jpg") 0 0 no-repeat;
+  background-blend-mode: overlay;
+}
+.sticky {height: 1000px;}
+.sticky h2 {
+  position: sticky;
+  top: 0px; /* 固定位置 */
+  margin-bottom: 300px;
+}

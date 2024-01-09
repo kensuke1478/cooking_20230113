@@ -1,0 +1,294 @@
+@charset "utf-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 960px;
+}
+
+header {
+  margin: 0 auto;
+}
+
+h1.icon {
+  zoom: 50%;
+}
+
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+div.title {
+  margin-top: -90px;
+  margin-left: 150px;
+  font-size: 30px;
+  font-family: Georgia, serif;
+}
+
+div.menu {
+  margin-top: 50px;
+  margin-left: 580px;
+  font-size: 30px;
+  font-family: Georgia, serif;
+  white-space: nowrap;
+}
+
+div.menu01 {
+  margin-top: 70px;
+  zoom: 70.5%;
+  margin-left: 190px;
+}
+
+div.topic {
+  margin-top: 50px;
+  margin-left: 220px;
+  font-size: 30px;
+  font-family: Georgia, serif;
+  white-space: nowrap;
+  overflow-wrap: break-word;
+}
+
+ul.beside {
+  display: flex;
+}
+
+div.main {
+  margin-top: 50px;
+  margin-left: 90px;
+  white-space: nowrap;
+  font-size: 25px;
+  border-bottom: 1px solid #000;
+  display: inline-block;
+  padding-bottom: 50px;
+}
+
+section.material {
+  font-size: 19.5px;
+}
+
+li.material01 {
+  font-size: 19.5px;
+  margin-left: 90px;
+  list-style: none;
+  padding: 30px 30px;
+  border-bottom: 1px solid #000000;
+}
+
+li.material02 {
+  font-size: 19.5px;
+  margin-left: 90px;
+  list-style: none;
+  padding: 30px 30px;
+  border-bottom: 1px solid #000000;
+}
+
+li.material03 {
+  font-size: 19.5px;
+  margin-left: 90px;
+  list-style: none;
+  padding: 30px 30px;
+  border-bottom: 1px solid #000000;
+}
+
+li.material04 {
+  font-size: 19.5px;
+  margin-left: 90px;
+  list-style: none;
+  padding: 30px 30px;
+  border-bottom: 1px solid #000000;
+}
+
+li.material05 {
+  font-size: 19.5px;
+  margin-left: 90px;
+  list-style: none;
+  padding: 30px 30px;
+  border-bottom: 1px solid #000000;
+}
+
+li.material06 {
+  font-size: 19.5px;
+  margin-left: 90px;
+  list-style: none;
+  padding: 30px 30px;
+  border-bottom: 1px solid #000000;
+}
+
+li.material07 {
+  font-size: 19.5px;
+  margin-left: 90px;
+  list-style: none;
+  padding: 30px 30px;
+  border-bottom: 1px solid #000000;
+}
+
+li.material08 {
+  font-size: 19.5px;
+  margin-left: 90px;
+  list-style: none;
+  padding: 30px 30px;
+  border-bottom: 1px solid #000000;
+}
+
+li.material09 {
+  font-size: 19.5px;
+  margin-left: 90px;
+  list-style: none;
+  padding: 30px 30px;
+  border-bottom: 1px solid #000000;
+}
+
+div.recommendmenu_nav-list06 {
+  margin-left: 500px;
+}
+
+div.make {
+  font-size: 25px;
+  margin-top: 50px;
+  margin-left: -175px;
+  white-space: nowrap;
+  font-size: 25px;
+  border-bottom: 1px solid #000;
+  display: inline-block;
+  padding-bottom: 50px;
+  width: 125%;
+}
+
+li.cooking01 {
+  font-size: 19.5px;
+  white-space: nowrap;
+  list-style: none;
+  margin-top: 30px;
+  margin-left: 10px;
+  padding: 0px 19px;
+}
+
+ul.making01 {
+  display: flex;
+  margin-top: 100px;
+  margin-left: -175px;
+  border-bottom: 1px solid #000;
+  width: 125%;
+  padding-bottom: 50px;
+  padding-left: 12px;
+}
+
+li.cooking_img01 {
+  white-space: nowrap;
+  list-style: none;
+  margin-left: 225px;
+  zoom: 80%;
+}
+
+ul.making02 {
+  display: flex;
+  margin-top: 100px;
+  margin-left: -175px;
+  border-bottom: 1px solid #000;
+  width: 125%;
+  padding-bottom: 50px;
+  padding-left: 12px;
+}
+
+li.cooking02 {
+  font-size: 19.5px;
+  white-space: nowrap;
+  list-style: none;
+  margin-top: 30px;
+  margin-left: 10px;
+  padding: 0px 19px;
+}
+
+li.cooking_img02 {
+  white-space: nowrap;
+  list-style: none;
+  margin-left: 90px;
+  zoom: 80%;
+}
+
+ul.making03 {
+  display: flex;
+  margin-top: 100px;
+  margin-left: -175px;
+  border-bottom: 1px solid #000;
+  width: 125%;
+  padding-bottom: 50px;
+  padding-left: 12px;
+}
+
+li.cooking03 {
+  font-size: 19.5px;
+  white-space: nowrap;
+  list-style: none;
+  margin-top: 30px;
+  margin-left: 10px;
+  padding: 0px 19px;
+}
+
+ul.making04 {
+  display: flex;
+  margin-top: 100px;
+  margin-left: -175px;
+  border-bottom: 1px solid #000;
+  width: 125%;
+  padding-bottom: 50px;
+  padding-left: 15px;
+}
+
+li.cooking04 {
+  font-size: 19.5px;
+  white-space: nowrap;
+  list-style: none;
+  margin-top: 30px;
+  margin-left: 10px;
+  padding: 0px 19px;
+}
+
+li.cooking_img03 {
+  white-space: nowrap;
+  list-style: none;
+  margin-left: 500px;
+  zoom: 20%;
+}
+
+div.recommendmenu_nav-list07 {
+  margin-top: 500px;
+  margin-left: 650px;
+}
+
+a.btn--blue {
+  color: #0f1210;
+  background-color: #DFEDF7;
+}
+
+a.btn--blue:hover {
+  color: #0f1210;
+  background: #DFEDF7;
+}
+
+a.btn-c {
+  font-size: 16.5px;
+  position: relative;
+  padding: 14px 40px 15px 30px;
+  font-weight: normal;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+a.btn-c i.fa {
+  margin-right: 1rem;
+}
+
+a.btn-c:before {
+  font-family: 'Rockwell';
+  line-height: 1;
+  top: calc(50% - .8rem);
+  right: 100px;
+  margin: 100px;
+  padding: 0;
+}

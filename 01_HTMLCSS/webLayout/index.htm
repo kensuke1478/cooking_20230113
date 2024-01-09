@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Layout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap-reboot.min.css">
+    <style>
+        .gl-header,
+        .top-hero,
+        .top-main,
+        .top-side,
+        .gl-footer {
+            border: 1px solid #000;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .wrapper {
+            max-width: 1000px;
+            margin: auto;
+        }
+        .top-hero {
+            height: 200px;
+        }
+        .top-main,
+        .top-side {
+            height: 400px;
+        }
+        .top-main {
+            width: 685px;
+            float: left;
+        }
+        .top-side {
+            width: 300px;
+            float: right;
+        }
+        .gl-header,
+        .gl-footer {
+            height: 80px;
+        }
+        .clearfix::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="gl-header">
+            <h1>Web Layout</h1>
+        </header>
+        <section class="top-hero">
+            <h2>Copy Message</h2>
+        </section>
+        <div class="clearfix">
+            <main class="top-main">
+                <h2>Contents Title</h2>
+            </main>
+            <aside class="top-side"></aside>
+        </div>
+        <footer class="gl-footer"></footer>
+    </div>
+</body>
+</html>
