@@ -1,9 +1,0 @@
-a
-あいうえお
-mkdir VimTest && cd $_
-vim vimtest/text1.txt
-i
-アイウエオ
-
-かきくけこ
-

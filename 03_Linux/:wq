@@ -1,7 +1,0 @@
-a
-あいうえお
-mkdir VimTest && cd $_
-vim vimtest/text.txt
-i
-アイウエオ
-
